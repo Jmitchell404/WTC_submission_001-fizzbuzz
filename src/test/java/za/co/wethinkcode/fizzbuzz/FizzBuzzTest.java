@@ -1,7 +1,7 @@
 package za.co.wethinkcode.fizzbuzz;
 
 import org.junit.jupiter.api.Test;
-import za.co.wethinkcode.fizzbuzz.FizzBuzz;
+// import za.co.wethinkcode.fizzbuzz.FizzBuzz;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

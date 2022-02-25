@@ -24,7 +24,7 @@ public class RunJUnit5TestsFromJava {
                 .selectors(selectClass(testClass))
                 .build();
         Launcher launcher = LauncherFactory.create();
-        TestPlan testPlan = launcher.discover(request);
+        // TestPlan testPlan = launcher.discover(request);
         launcher.registerTestExecutionListeners(listener);
         launcher.execute(request);
 
@@ -39,7 +39,7 @@ public class RunJUnit5TestsFromJava {
                 .filters(includeClassNamePatterns(".*Test"))
                 .build();
         Launcher launcher = LauncherFactory.create();
-        TestPlan testPlan = launcher.discover(request);
+        // TestPlan testPlan = launcher.discover(request);
         launcher.registerTestExecutionListeners(listener);
         launcher.execute(request);
 
