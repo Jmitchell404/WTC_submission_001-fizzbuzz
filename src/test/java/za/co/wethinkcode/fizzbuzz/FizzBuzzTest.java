@@ -43,7 +43,7 @@ public class FizzBuzzTest {
             FizzBuzz fizzBuzz = new FizzBuzz();
             String result = fizzBuzz.countTo(15);
             assertEquals(
-                    "Fizz",
+                    "FizzBuzz",
                     result);
     }
 
